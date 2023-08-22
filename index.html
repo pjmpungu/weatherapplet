@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="javascript.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="last-updated">
+            <p id="last-updated">Last updated date/time</p>
+        </div>
+        <div class="temperature">
+            <div class="main-temp">
+                <img id="icon" src="//cdn.weatherapi.com/weather/64x64/night/113.png">
+                <h1 id="temp">XX˚F</h1>
+            </div>
+            <p id="feels-like">Feels like XX˚</p>
+        </div>
+        <div class="misc">
+            <h2 id="wind-speed">Wind speed: x mph</h2>
+            <h2 id="precip">Precipitation: x in</h2>
+            <h2 id="humid">Humidity: x%</h2>
+        </div>
+        <form id="form" class="location">
+            <input id="zipcode" type="text" placeholder="Enter your zipcode">
+            <div>
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
