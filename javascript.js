@@ -1,6 +1,6 @@
 
 const apiKey = "04bc23ebae4540ad97425836232208"
-const baseUrl = "http://api.weatherapi.com/v1/current.json?key=" + apiKey;
+const baseUrl = "https://api.weatherapi.com/v1/current.json?key=" + apiKey;
 
 //define html elements
 const lastUpdate = document.querySelector("#last-updated");
